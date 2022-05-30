@@ -51,7 +51,7 @@
         <section class="hero">
             <div class="container ">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                <button class="hero-btn button" type='button' data-modal-open>Заказать услугу</button>
+                <button class="main-btn button" type='button' data-modal-open>Заказать услугу</button>
             </div>
         </section>
 
@@ -403,9 +403,20 @@
                     </li>
                 </ul>
             </div>
+            <form class="subscription-form">
+                <p class="footer-title">Подпишитесь на рассылку</p>
+                <input class="subscription-input" type="email" name="subcription_email" placeholder="E-mail">
+                <button class="main-btn button" type="submit">
+                    Подписаться
+                    <svg>
+                        <use href="./images/icons.svg#send-letter" width="24" height="24"></use>
+                    </svg>
+                </button>
+            </form>
         </div>
     </footer>
 
+<!-- Don't forget to add is-hidden back -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btn button" data-modal-close>
