@@ -133,6 +133,12 @@ address {
   transition: background-color var(--transition-duration) var(--transition-cubic-bezier);
 }
 
+.main-btn:hover,
+.main-btn:focus,
+.main-btn:active {
+  background-color: #188CE8;
+}
+
 .container  {
   width: 1200px;
   padding-left: 15px;
@@ -523,6 +529,9 @@ address {
   background-color: rgba(0, 0, 0, 0);
   caret-color: var(--white-color);
   color: var(--white-color);
+
+  font-size: 16px;
+  line-height: 1.25;
 }
 
 .subscription-input::placeholder {
@@ -739,11 +748,6 @@ textarea.contact-form-input {
   padding: 10px 55px;
 }
 
-.main-btn:hover,
-.main-btn:focus,
-.main-btn:active {
-  background-color: #188CE8;
-}
 
 /* Modal end */
 
